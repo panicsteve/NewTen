@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                cancelInstall = id; 
+                installPackage = id; 
+                scanForSerialDrivers = id; 
+                selectDriver = id; 
+                selectPackage = id; 
+                showHelp = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                driverButton = id; 
+                installPackageButton = id; 
+                mainWindow = id; 
+                progress = id; 
+                sheet = id; 
+                status = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
